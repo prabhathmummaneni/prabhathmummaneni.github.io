@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/prabhath-portfolio/static/css/main.3e76a26b.css",
-    "main.js": "/prabhath-portfolio/static/js/main.839abe0e.js",
-    "static/js/453.552e5ee8.chunk.js": "/prabhath-portfolio/static/js/453.552e5ee8.chunk.js",
-    "static/media/vpn.png": "/prabhath-portfolio/static/media/vpn.e05f7daf7b2aada9bc3d.png",
-    "static/media/copeople.png": "/prabhath-portfolio/static/media/copeople.d67f7e541d45db45cf45.png",
-    "index.html": "/prabhath-portfolio/index.html",
-    "main.3e76a26b.css.map": "/prabhath-portfolio/static/css/main.3e76a26b.css.map",
-    "main.839abe0e.js.map": "/prabhath-portfolio/static/js/main.839abe0e.js.map",
-    "453.552e5ee8.chunk.js.map": "/prabhath-portfolio/static/js/453.552e5ee8.chunk.js.map"
+    "main.css": "/static/css/main.3e76a26b.css",
+    "main.js": "/static/js/main.2e1485a4.js",
+    "static/js/453.552e5ee8.chunk.js": "/static/js/453.552e5ee8.chunk.js",
+    "static/media/vpn.png": "/static/media/vpn.e05f7daf7b2aada9bc3d.png",
+    "static/media/copeople.png": "/static/media/copeople.d67f7e541d45db45cf45.png",
+    "index.html": "/index.html",
+    "main.3e76a26b.css.map": "/static/css/main.3e76a26b.css.map",
+    "main.2e1485a4.js.map": "/static/js/main.2e1485a4.js.map",
+    "453.552e5ee8.chunk.js.map": "/static/js/453.552e5ee8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e76a26b.css",
-    "static/js/main.839abe0e.js"
+    "static/js/main.2e1485a4.js"
   ]
 }
