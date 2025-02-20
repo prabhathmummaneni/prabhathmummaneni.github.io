@@ -19,15 +19,15 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <nav className="bg-gray-800 p-4 text-white fixed w-full z-10 top-0" style={{ cursor: 'default' }}>
+    <nav className="bg-gray-800 p-4 h-16 text-white fixed w-full z-10 top-0 whitespace-nowrap" style={{ cursor: 'default' }}>
       <div className="mx-auto text-center flex w-5/6 justify-between">
         
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
         </div>
-        <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Nithin Manda</a>
+        <div className="text-2xl sm:text-3xl font-extrabold">
+          <a href="/">Prabhath Mummaneni</a>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/projects'>Projects</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
+            <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
         </div>

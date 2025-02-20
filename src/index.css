@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.object-contain{
-    transform: scale( 1.7);
-    border-radius : 20px
-}
 
 
 /*Start Animations*/
@@ -167,3 +163,28 @@
 		border-radius: 50%;
 	}
 }
+
+
+.scroll-indicator {
+	position: absolute;
+	bottom: 20px;
+	left: 90%;
+	transform: translateX(-50%);
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	animation: bounce 1.5s infinite;
+	transition: opacity 0.5s ease-in-out;
+	cursor: pointer;
+}
+  
+.hidden.scroll-indicator{
+opacity: 0;
+pointer-events: none;
+}
+
+@keyframes bounce {
+	0%, 100% { transform: translateX(-50%) translateY(0); }
+	50% { transform: translateX(-50%) translateY(10px); }
+  }
+  

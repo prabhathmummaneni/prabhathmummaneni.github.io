@@ -21,7 +21,7 @@ const Home = () => {
 	}, [text]);
 
 	return (
-		<div className='area relative z-0 bg-black w-screen h-screen'>
+		<div className='area relative bg-black w-screen h-screen'>
 			<ul class="circles">
 				<li></li>
 				<li></li>
@@ -34,7 +34,7 @@ const Home = () => {
 				<li></li>
 				<li></li>
 			</ul>
-			<div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white' id='hero'>
+			<div className='hero relative pt-16 h-[calc(100vh-92px)] sm:h-[calc(100vh-50px)] flex justify-center items-center text-white' id='hero'>
 				<div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
 					<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-yellow-200 font-extrabold'>{text}</span></h1>
 					<p className='mt-3 text-xl'>I love to learn and build scalable and optimized backend systems.</p>

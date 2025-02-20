@@ -3,16 +3,17 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../constants';
 import Footer from './Footer';
+import ScrollIndicator from './scrollIndicator';
 
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden' id='experience'>
-      <div className='pt-12 sm:px-16'>
-        <p className='font-light'>MY JOURNEY SO FAR.</p>
-        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
+    <div className='experience bg-black w-screen text-white overflow-x-hidden flex flex-col' id='experience'>
+      <div className='pt-16'>
+        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2' id=''>Work Experience.</h2>
       </div>
-      <VerticalTimeline className='mt-9'>
+      <ScrollIndicator/>
+      <VerticalTimeline className='mt-9 flex-grow'>
         {experiences.map((experience) => (
           <VerticalTimelineElement
             className="relative vertical-timeline-element--work"
